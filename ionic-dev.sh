@@ -13,7 +13,8 @@ if test $(which node); then
   sudo npm install -g cordova ionic
 
   # to deploy ios apps to simulator and devices
-  sudo npm install -g ios-sim ios-deploy
+  sudo npm install -g ios-sim
+  sudo npm install --g --unsafe-perm ios-deploy
 
   # karma is our test runner
   sudo npm install -g karma-cli
